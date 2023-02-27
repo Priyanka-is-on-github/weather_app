@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+   
+  
+</head>
+<body>
+<div class="wrapper">
+    <!-- header-section -->
+
+      <header><i class='bx bx-left-arrow-alt'></i>Weather App</header> 
+
+    <!-- header section end -->
+
+    <!-- input section -->
+
+      <section class="input-part">
+          <p class="info-txt">Please enter a valid city name</p>
+          <div class="content">
+             <input class="input" type="text" spellcheck="false" placeholder="Enter city name"required>
+             <div class="separator"></div>
+             <button>Get your Location</button>
+          </div>
+      </section>
+
+    <!-- input section end -->
+
+
+<!-- Weather section -->
+    <section class="weather-part">
+
+        <!-- weather image -->
+
+          <img src="cloud.svg" alt="cloud icon">
+
+        <!-- weather image end -->
+
+        <!-- weather temperature -->
+
+           <div class="temp">
+               <span class="numb">24</span>
+               <span class="deg">°</span>C
+           </div>
+
+        <!-- weather temperature end -->
+
+        <!-- weather-->
+
+           <div class="weather">Cloudy</div>
+
+        <!-- weather-end-->
+
+        <!--location -->
+           <div class="location">
+              <i class="bx bx-map"></i>
+              <span>jamshedpur</span>
+           </div>
+        <!--location-end -->
+
+        <!-- Extra information -->
+
+          <div class="bottom-details">
+             <div class="column feels">
+                 <i class="bx bxs-thermometer"></i>
+                  <div class="details">
+                      <div class="temp">
+                         <span class="numb-2">17</span>
+                         <span class="deg">°</span>C
+                      </div>
+                      <p>Feels like</p>
+                  </div>
+             </div>
+
+
+              <!-- humidity -->
+                 <div class="column humidity">
+                      <i class="bx bxs-droplet-half"></i>
+                      <div class="details"> 
+                          <span>84%</span>
+                          <p>Humidity</p>
+                     </div>
+                 </div>
+              <!-- humidity ends -->
+
+          </div>
+        <!-- extra information end -->
+
+    </section>
+<!-- weather section end -->
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
